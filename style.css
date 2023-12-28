@@ -66,7 +66,7 @@ a {
 }
 
 .sec1_right {
-    margin: 20px
+    margin: 20px;
 }
 
 .sec2 {
@@ -83,17 +83,37 @@ a {
     justify-content: center;
 }
 
+.sec2>div>div>img {
+    width: 150px;
+    height: 150px;
+}
+
 .image_box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    object-fit: scale-down;
-
+    margin: 10px;
 }
 
 .image_superbox {
     display: flex;
     margin: 50px;
+}
+
+.sec3 {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+
+.sec3>p>i {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.sec3>p>b {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
 }
