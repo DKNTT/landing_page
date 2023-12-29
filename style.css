@@ -21,7 +21,6 @@ a {
 
 
 .upper_block {
-    display: flexbox;
     justify-self: center;
     background-color: #1F2937;
     color: white;
@@ -72,12 +71,11 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px 200px;
+    margin: 50px 200px;
 }
 
 .info_header {
     font-size: 36px;
-    font-weight: bolder;
     color: #1F2937;
     display: flex;
     justify-content: center;
@@ -142,4 +140,12 @@ a {
 
 .sec4>div>h2 {
     margin: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 200px;
 }
