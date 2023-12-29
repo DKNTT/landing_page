@@ -64,7 +64,7 @@ a {
 }
 
 .sec1_right {
-    margin: 20px;
+    margin: 40px;
 }
 
 .sec2 {
@@ -123,6 +123,7 @@ a {
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
+    border-radius: 10px;
 
 }
 
