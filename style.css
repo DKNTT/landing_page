@@ -119,6 +119,27 @@ a {
 
 .sec4 {
     margin: 50px 200px;
-    padding: 30px;
+    padding: 40px 100px;
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+
+}
+
+.sign_up_button2 {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-style: solid;
+    width: 100px;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+.sec4>div>h2 {
+    margin: 0px;
 }
